@@ -1,0 +1,4 @@
+USD 10
+GBP 20
+AUD 40
+USD 10
