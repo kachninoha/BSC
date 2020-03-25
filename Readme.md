@@ -1,7 +1,7 @@
 This application is homework demo project for Bank System Company, s.r.o.
 It keeps a record of payments. Each payment includes a currency and an amount.
 
-- after clone, it can be built by maven (mvn clean package), test will be runned and jar package prepared
+- after clone, it can be built by maven (mvn clean package), test will be runned by maven and jar package prepared
 
 - application requires to be input file on UTF-8 format ONLY.iy 
 - if currencly is not regular number, in czech locale it has to be inputed with "," not with "." (for example USD 10,2 is correct input)
