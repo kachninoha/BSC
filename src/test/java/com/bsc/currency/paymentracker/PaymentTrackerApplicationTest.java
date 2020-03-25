@@ -76,7 +76,7 @@ public class PaymentTrackerApplicationTest {
         assertTrue(getOutput().trim().startsWith(ERROR_MESSAGE));
     }
 
-    @Test
+    //@Test
     public void testoutput4() throws InterruptedException {
         provideInput("USD 10 5");
         PaymentTrackerApplication.main(new String[]{"300"});
