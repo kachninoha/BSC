@@ -8,6 +8,9 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
+/**
+* Application homework Demo which manages Payments and track them
+*/
 public class PaymentTrackerApplication {
 
     private static final String ERROR_MESSAGE = "Error: incorrect input format. " +
@@ -59,6 +62,8 @@ public class PaymentTrackerApplication {
     }
 
     /**
+     * Reads scanner to concurentMap
+     * 
      * @param sc          scanner to read from
      * @param currencyMap ConcurrentMap to write to
      */
