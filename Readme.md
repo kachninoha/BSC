@@ -3,7 +3,7 @@ It keeps a record of payments. Each payment includes a currency and an amount.
 
 - after clone, it can be built by maven (mvn clean package), test will be runned by maven and jar package prepared
 
-- application requires to be input file on UTF-8 format ONLY.iy 
+- application requires to have input file on UTF-8 format only
 - if currencly is not regular number, in czech locale it has to be inputed with "," not with "." (for example USD 10,2 is correct input)
 it depends on setted locale.
 
@@ -21,10 +21,10 @@ java -jar PaymentTracker-0.0.1-SNAPSHOT.jar C:\Projekty\PaymentTracker\badfile.t
 ```
 
 ## Important TOTO list:
-- test with -Dfile.encoding commandline param whether changing encoding to another works for file inputs
-- add more tests-
-- fix existing commented tests. currently test of file doesnt work probably because of problem with encoding probably
+- test if works -Dfile.encoding commandline param works for file inputs which changes default encoding
+- cover code by more test
+- fix existing commented tests. currently tests used input file doesnt work probably because of problem with encoding probably
 - add releasing of project for example by maven release plugin
+- add support of other locales for example setu as command line param (example -Duser.country=CA -Duser.language=fr)
 - implement bonus tasks :)
 
-USD 0,5 encoding, mezera utf znak
