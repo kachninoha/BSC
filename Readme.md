@@ -7,9 +7,9 @@ It keeps a record of payments. Each payment includes a currency and an amount.
 - if currencly is not regular number, in czech locale it has to be inputed with "," not with "." (for example USD 10,2 is correct input)
 it depends on setted locale.
 
-- where if there are two arguments provided, fist has to be full path to input file and second is number of miliseconds delay between printing outputs
-if only one argument provided, it has to be number of miliseconds delay between printing outputs
-if no arguments provided, used default print delay 60 seconds and no input file
+* if are two arguments provided, fist has to be full path to input file and second is number of miliseconds delay between printing outputs
+* if only one argument provided, it has to be number of miliseconds delay between printing outputs
+* if no arguments provided, used default print delay 60 seconds and no input file
 
 - example commandline runs :
 ```
